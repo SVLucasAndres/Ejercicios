@@ -1,0 +1,16 @@
+
+.card{
+    background-color:rgb(199, 145, 145); 
+    color: black;
+    width: 300px;
+   }
+@media (max-width: 400px){
+ .card{
+    background-color: #71b877;
+    color: black;
+    width: 300px;
+ }
+}
+.all{
+    padding: 1rem;
+}

@@ -1,17 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+<body class="all">
+  <ion-content [fullscreen]="true">
+    <ion-card class="card">
+      <ion-card-header>
+        <ion-card-title>Card cambiante</ion-card-title>
+        <ion-card-subtitle>Seré rojo cuando la pantalla sea mayor a 400 px</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>De lo contrario, seré verde</ion-card-content>
+    </ion-card>
+  </ion-content>
+</body>
